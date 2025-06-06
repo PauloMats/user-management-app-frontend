@@ -50,36 +50,57 @@ Frontend moderno e escalável para o sistema **Conectar**, desenvolvido com **Re
 | Build Tools         | Create React App / Vite            |
 
 ---
-
 ## 📁 Estrutura do Projeto
 
 conectar-frontend/
+
 ├── public/
+
 ├── src/
+
 │ ├── App.tsx
+
 │ ├── index.tsx
+
 │ ├── index.css
+
 │ ├── assets/
+
 │ ├── components/common/Navbar.tsx
+
 │ ├── config/index.ts
+
 │ ├── contexts/AuthContext.tsx
+
 │ ├── hooks/useAuth.ts
+
 │ ├── pages/
+
 │ │ ├── AdminUserListPage.tsx
+
 │ │ ├── LoginPage.tsx
+
 │ │ ├── RegisterPage.tsx
+
 │ │ ├── UserProfilePage.tsx
+
 │ │ └── NotFoundPage.tsx
+
 │ ├── router/
+
 │ │ ├── index.tsx
+
 │ │ └── ProtectedRoute.tsx
+
 │ ├── services/api.ts
+
 │ └── types/user.ts
+
 ├── .env.example
+
 ├── package.json
+
 └── tsconfig.json
-
-
 ---
 
 ## ⚙️ Pré-requisitos
